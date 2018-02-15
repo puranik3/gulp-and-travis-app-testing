@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Prashanth Puranik <puranik@digdeeper.in> (http://www.digdeeper.in/)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/puranik3/nodejs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  },
+  "overrides": {
+      "bootstrap": {
+          "main": [
+              "dist/js/bootstrap.min.js",
+              "dist/css/bootstrap.min.css"
+          ]
+      }
+  }
+}
